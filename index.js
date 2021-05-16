@@ -18,7 +18,7 @@ function superbowlWin(){
   
   record.find(s=> s=== "W"))
     record.filter(s => "W");
-  return record.year;
+return !!record ? record.year : undefined
  
  
 
